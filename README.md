@@ -1,2 +1,2 @@
-# Fundamentos_Web_4_Gabriel-Mark
-Quarta parte do treinamento de fundamentos da web
+Fundamentos Web 4 - Gabriel/Mark
+Quarta parte do treinamento de fundamentos da web.
