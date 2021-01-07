@@ -17,51 +17,108 @@ if (computerChoice < 0.34) {
     computerChoice = "tesoura";
 
 }
-console.log("Computer: " + computerChoice);
+
+alert("Computer: " + computerChoice);
 
 var compare = function (choice1, choice2) {
 
+
     if (choice1 === choice2)
 
-        console.log ("O resultado é um empate!");
+        alert ("O resultado é um empate!");
 
     else if (choice1 === "pedra") {
 
         if (choice2 === "tesoura")
 
-            console.log ("pedra vence");
+        alert ("pedra vence");
 
         else {
 
-            console.log ("papel vence");
+            alert ("papel vence");
 
         }
+    
+    } 
 
-    } else if (choice1 === "papel") {
+    else if (choice1 === "papel") {
 
         if (choice2 === "pedra")
 
-            console.log ("papel vence");
+        alert ("papel vence");
 
         else {
 
-            console.log ("tesoura vence");
+            alert ("tesoura vence");
 
         }
 
-    } else if (choice1 === "tesoura") {
+    } 
+ 
+    else if (choice1 === "tesoura") {
 
         if (choice2 === "pedra")
 
-            console.log ("pedra vence");
+        alert ("pedra vence");
 
         else {
 
-            console.log( "tesoura vence");
+            alert( "tesoura vence");
 
         }
 
-    }
+    } else if (choice1 === "Pedra") {
+
+            if (choice2 === "tesoura")
+    
+            alert ("pedra vence");
+
+            if (choice2 === "pedra")
+
+            alert ("O resultado é um empate!");
+    
+            else {
+    
+                alert ("papel vence");
+    
+            }
+        
+        } 
+    
+        else if (choice1 === "Papel") {
+    
+            if (choice2 === "pedra")
+    
+            alert ("papel vence");
+
+            if (choice2 === "papel")
+
+            alert ("O resultado é um empate!");
+    
+            else {
+    
+                alert ("tesoura vence");
+    
+            }
+    
+        } 
+     
+        else if (choice1 === "Tesoura") {
+    
+            if (choice2 === "pedra")
+    
+            alert ("pedra vence");
+
+            if (choice2 === "tesoura")
+
+            alert ("O resultado é um empate!");
+    
+            else {
+    
+                alert( "tesoura vence");
+    
+            }    
+    } 
 
 };
 
