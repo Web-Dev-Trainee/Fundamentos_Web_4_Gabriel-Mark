@@ -1,2 +1,2 @@
-# Fundamentos Web 4 - Gabriel/Mark
-Quarta parte do treinamento de fundamentos da web.
+# Projeto_Pedra_Papel_Tesoura - Gabriel/Mark
+Projeto com script simples desenvolvido para o The Odin Project.
